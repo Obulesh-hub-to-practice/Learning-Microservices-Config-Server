@@ -4,7 +4,7 @@ server:
 spring:
   cloud:
     consul:
-      host: consul
+      host: consul-container
       port: 8500
       discovery:
         register: true
